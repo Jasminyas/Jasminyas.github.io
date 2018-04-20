@@ -98,8 +98,8 @@ analytics:
 # Site Author
 author:
   name             : "Yasmine Maricar"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Curious, with an analytical mindset and a passion for discovery, I chose to embrace Data Science as a career path.\n I am currently a Graduate from a Master's Degree in CS&Engineering from ENSIIE where I took a Major in Artificial Intelligence and a Master's Degree from Université Paris Saclay in Data Science and Big Data Innovation, Market and Data Science\n Interests : english books & lit (SCI-FI, anticipation novels), meetups (data, AI), competitions (startup ideas, innovation challenges), moocs (data science, big data and machine learning, sciences & art).\n Feel free to get in touch ! "
+  avatar           : /assets/image/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am a Software Engineer specialized in AI at Orange labs. <br> Curious, with an analytical mindset and a thirst for knowledge and discovery, I chose to embrace Data Science as a career path.\n I am currently a Graduate from a Master's Degree in Computer Science from ENSIIE where I took a Major in Artificial Intelligence and a Master's Degree in Data Science and Big Data from Université Paris-Saclay <br> Interests : english books & lit (SCI-FI, anticipation novels), meetups (ML/AI), competitions (startup ideas, innovation challenges), MOOCS (AI/Deep Learning).<br> Feel free to get in touch ! "
   location         : "Paris, France"
   email            : maricar.yasmineatgmaildotcom
   uri              :
@@ -110,7 +110,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : https://github.com/jasminyas
+  github           : jasminyas
   gitlab           : 
   google_plus      :
   keybase          :
