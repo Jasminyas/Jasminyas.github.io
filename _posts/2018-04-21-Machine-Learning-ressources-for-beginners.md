@@ -14,11 +14,11 @@ tags:
 Hello everyone, this post is a compilation of useful ressources for those who want to dig into Machine Learning techniques.
 Enjoy !
 
-In the field of Machine Learning and Data Science as a whole, you first need to get solid basics in mathematics (linear algebra, statistics/probabilities and mathematical optimization are at play here).
+To get in the field of Machine Learning and Data Science as a whole, you first need to get solid basics in mathematics (linear algebra, statistics/probabilities and mathematical optimization are at play here).
 
-# I ) Notions en mathématiques
+# I ) Nothions in Mathematics
 
-For notions in probabilities and statistics, I highly recommend these two courses !
+To get notions in probabilities and statistics, I highly recommend these two courses !
 
 * [link](https://lagunita.stanford.edu/courses/course-v1:OLI+ProbStat+Open_Jan2017/info)
 * [link](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/info) (refers to the excellent ***Introduction to Statistical Learning*** [link](http://www-bcf.usc.edu/~gareth/ISL/) book).
