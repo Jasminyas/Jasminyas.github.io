@@ -1,7 +1,6 @@
 ---
 title: "Machine Learning Ressources for beginners (and beyond)"
-header:
-  img: /assets/images/ressources_ml/image-brain.jpg
+img: /assets/images/ressources_ml/image-brain.jpg
 categories:
   - Ressources
 tags:
@@ -21,7 +20,7 @@ To get in the field of Machine Learning and Data Science as a whole, you first n
 To get notions in probabilities and statistics, I highly recommend these two courses !
 
 * [Stanford University : Probabilities and Statistics](https://lagunita.stanford.edu/courses/course-v1:OLI+ProbStat+Open_Jan2017/info)
-* [Stanford University : Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/info) (refers to the excellent ***Introduction to Statistical Learning*** [link](http://www-bcf.usc.edu/~gareth/ISL/) book).
+* [Stanford University : Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/info) (refers to the excellent [***Introduction to Statistical Learning***](http://www-bcf.usc.edu/~gareth/ISL/) book).
 
 I refer you to this article which reprises what to learn in math for data science : 
 [Learn Math for Data Science](https://elitedatascience.com/learn-math-for-data-science)
@@ -36,7 +35,7 @@ As for deep learning, if you want to directly begin with this particular field o
 
 * [Datacamp : Introduction to Data Science with Python](https://www.datacamp.com/courses/intro-to-python-for-data-science) : This course is a nice introduction to Data Science with Python coding language. It would be really useful for you to get a good grasp of **Python** as well as **R** languages which are used plenty in data science and machine learning.
 
-
+ 
 
 The two main courses I recommend you are *Andrew Ng's* (AI researcher and former professor at Stanford (he has, amongst other things, worked for *Google* and *Baidu* in this field) coursera MOOCS ! Andrew is really pedagogue in his teaching and his courses are a really great asset in anyone's learning path.
 
@@ -58,7 +57,7 @@ Nothing is better than doing projects to learn data science, I recommend you Kag
 
 * [Python tutorial on ML](https://www.datacamp.com/community/open-courses/kaggle-python-tutorial-on-machine-learning) : A tutorial about Titanic dataset from Kaggle.
 * [« Getting started »](https://www.kaggle.com/competitions?sortBy=grouped&group=general&page=1&pageSize=20&category=gettingStarted) competitons on Kaggle.
-* A really great free mean to learn [how to buils ML models : ](https://www.kaggle.com/learn/overview).
+* A really great free mean to learn [how to buils ML models.](https://www.kaggle.com/learn/overview).
 
 
 Meetups (Meetup.com) are a great way to participate to data science conferences and enter the community.
