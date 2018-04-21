@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -99,7 +99,7 @@ analytics:
 author:
   name             : "Yasmine Maricar"
   avatar           : /assets/image/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Software Engineer specialized in AI at Orange labs. <br> Curious, with an analytical mindset and a passion for discovery, I chose to embrace Data Science as a career path.<br> I am currently a Graduate from a Master's Degree in Computer Science from ENSIIE and a Master's Degree in Data Science and Big Data from Université Paris-Saclay <br> Interests : english books & lit (SCI-FI, anticipation novels), meetups (ML/AI), competitions (startup ideas, innovation challenges), MOOCS (AI/Deep Learning).<br> Feel free to get in touch ! "
+  bio              : "I am a Software Engineer specialized in AI at Orange labs. <br> Curious, with an analytical mindset and a passion for discovery, I chose to embrace Data Science as a career path.<br> I am currently a Graduate from a Master's Degree in Computer Science from <a href="http://www.meilleures-grandes-ecoles.com/classement-ecoles-d-ingenieurs-specialisees-en-informatique-post-prepa/ensiie-ecole-nationale-superieure-d-informatique-pour-l-industrie-et-l-entreprise-diplome-d-ingenieur-en-informatique-ensiie.html"> ENSIIE </a> and a Master's Degree in Data Science and Big Data from <a href="https://www.universite-paris-saclay.fr/en/education/master/m2-innovation-marche-et-science-des-donnees-imsd#presentation-m2"> Université Paris-Saclay </a> <br> <br> Interests : english books & lit (SCI-FI, anticipation novels), meetups (ML/AI), competitions (startup ideas, innovation challenges), MOOCS (AI/Deep Learning).<br> Feel free to get in touch ! "
   location         : "Paris, France"
   email            : maricar.yasmineatgmaildotcom
   uri              :
