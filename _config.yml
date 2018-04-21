@@ -20,37 +20,37 @@ title                    : "Yasmine Maricar's portfolio"
 title_separator          : "-"
 name                     : "Yasmine Maricar"
 description              : "Yasmine Maricar Personal website"
-url                      : https://jasminyas.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://jasminyas.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 repository               : Jasminyas/Jasminyas.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/photo.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "jasminyas" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
+    num_posts            : 10 # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment."
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message'] # ['name', 'email', 'url', 'message']
+  branch                 : "master" # "master"
+  commitMessage          : "New comment." # "New comment."
+  filename               : comment-{@timestamp} # comment-{@timestamp}
+  format                 : "yml" # "yml"
+  moderation             : true # true
+  path                   : "/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
+  requiredFields         : ['name', 'email', 'message'] # ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                : "md5" # "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type               : "date" # "date"
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
@@ -98,10 +98,10 @@ analytics:
 # Site Author
 author:
   name             : "Yasmine Maricar"
-  avatar           : /assets/photo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Graduate in CS & ML - Looking for a job in Canada (Montreal)"
   location         : "Paris, France"
-  email            : maricar.yasmineatgmaildotcom
+  email            : "maricar.yasmine@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -110,13 +110,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : jasminyas
+  github           : "jasminyas"
   gitlab           : 
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : yasmine-maricar # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "yasmine-maricar" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -252,6 +252,20 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+  tutorials:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -263,6 +277,55 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      sidebar:
+        nav: "posts"
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+  # _recipes
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _pets
+  - scope:
+      path: ""
+      type: pets
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+        nav: "posts"     
