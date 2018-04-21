@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning Ressources for beginners (and beyond)"
 header:
-  image: /assets/images/ressources_ml/image-brain.jpg
+  img: /assets/images/ressources_ml/image-brain.jpg
 categories:
   - Ressources
 tags:
