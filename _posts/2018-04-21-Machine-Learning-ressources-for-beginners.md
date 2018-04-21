@@ -16,7 +16,7 @@ Enjoy !
 
 To get in the field of Machine Learning and Data Science as a whole, you first need to get solid basics in mathematics (linear algebra, statistics/probabilities and mathematical optimization are at play here).
 
-# I ) Nothions in Mathematics
+# I ) Notions in Mathematics
 
 To get notions in probabilities and statistics, I highly recommend these two courses !
 
@@ -67,7 +67,7 @@ There also are many Facebook groups or even Twitter or Quora feeds which deal wi
 
 ---
 
-# IV) Ressources complémentaires
+# IV) Other Ressources
 
 * A great repository by Shujian Lu with categorized ressources : https://github.com/Shujian2015/FreeML
 
