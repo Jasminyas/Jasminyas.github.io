@@ -100,7 +100,7 @@ analytics:
 author:
   name             : "Yasmine Maricar"
   avatar           : "/assets/photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Graduate in CS & ML - Looking for a job in Canada (Montreal)"
+  bio              : "Data Science Graduate in CS & ML"
   location         : "Paris, France"
   email            : "maricar.yasmine@gmail.com"
   uri              :
